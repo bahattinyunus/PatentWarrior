@@ -1,0 +1,17 @@
+# .gitignore for PatentWarrior
+
+# Assets
+_ASSETS/*.png
+_ASSETS/*.jpg
+_ASSETS/*.jpeg
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# System
+.DS_Store
+Thumbs.db
