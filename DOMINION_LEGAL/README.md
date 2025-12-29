@@ -1,60 +1,37 @@
-# ⚖️ DOMINION_LEGAL: The Global Courtroom
+# ⚖️ DOMINION_LEGAL: Mahkeme & Diplomasi
 
-> **"Adalet, sadece haklı olanın değil, süreci en iyi yönetenin yanındadır."**
+**"Avukat masrafları, inovasyonun en büyük düşmanıdır."**
 
-Mühendislik laboratuvarda biter, ancak patentin yaşamı mahkeme salonlarında ve uluslararası antlaşmaların bürokratik koridorlarında devam eder. Bu Dominion, **PCT**, **EPO** ve **Ulusal Mahkemeler** üçgeninde, haklarınızı küresel ölçekte nasıl savunacağınızı anlatan diplomatik ve hukuki bir rehberdir.
-
----
-
-## 🌍 Global Jurisdiction (Küresel Yargı Alanı)
-
-Sınırlar sadece haritada vardır; patent savaşları küreseldir.
-
-### 🌐 1. The PCT Super-Highway (Patent İşbirliği Antlaşması)
-Tek bir başvuru ile 150+ ülkenin kapısını aynı anda çalmak.
-*   **Strateji:** PCT size 30 aylık bir "zaman kazandırır". Bu sürede pazarı test edin, yatırımcı bulun ve hangi ülkeye *gerçekten* girmeniz gerektiğine karar verin. Parayı boşa harcamayın.
-
-### 🇪🇺 2. The European Fortress (Avrupa Kalesi)
-EPO (Avrupa Patent Ofisi), dünyanın en katı ama en değerli patentlerini verir.
-*   **Unitary Patent:** Yeni sistemle tek bir ödeme ile AB'nin çoğunu kapsayın. Ancak dikkat: Bir mahkeme kararı patentinizi *her yerde* aynı anda iptal edebilir. **"Hep ya da Hiç"** kumarı.
-
-### 🇺🇸 3. The US Battlefield (Amerikan Arenası)
-Dünyanın en büyük pazarı ve en pahalı davaları.
-*   **Discovery Süreci:** ABD davalarında, karşı taraf sizin *tüm* e-postalarınızı ve notlarınızı talep edebilir. **Kural:** Asla "Bunu sanırım çaldık" diye bir e-posta atmayın.
+Bu Dominion, size pahalı hukuk danışmanlarına ihtiyaç duymadan "Hukukça" (Legalese) konuşma ve savunma yapma yeteneği kazandırır.
 
 ---
 
-## ⚔️ Litigation Warfare (Dava Savaşları)
+## 📜 Operasyonel Şablonlar (Templates)
+`templates/` klasöründe bulunan bu belgeler, hukuksal savunma hattınızı kurmanız için hazırdır.
 
-Bir gün o mektup gelebilir veya siz göndermek zorunda kalabilirsiniz.
+### 1. İstem Analiz Tablosu (Claim Chart)
+*   **Dosya:** `templates/CLAIM_CHART_TEMPLATE.md`
+*   **Amaç:** Bir patentin ihlal edilip edilmediğini veya hükümsüz olup olmadığını kelime kelime analiz etmek.
+*   **Kullanım:** Patentin "İstemlerini" (Claims) sol sütuna, kendi ürününüzü veya bulduğunuz eski tekniği (Prior Art) sağ sütuna yazın. Eğer tek bir satır bile eşleşmiyorsa, ihlal yoktur.
 
-### 🛑 Cease and Desist (Durdur ve Vazgeç)
-Bu bir "Nezaket Mektubu" değildir; bu "Sana savaş açmadan önceki son uyarım" demektir.
-*   **Savunan İçin:** Sakin olun. Patentin geçerliliğini ve ihlal iddiasını analiz edin. Çoğu mektup blöftür.
-*   **Saldıran İçin:** Rakibinizin zayıf anını kollayın. Mektubu, pazar lansmanlarından hemen önce göndererek maksimum panik yaratın.
-
-### ⚖️ Doctrine of Equivalents (Eşdeğerler Doktrini)
-Rakibiniz, sizin "vida" dediğiniz şeyi "çivi" ile değiştirdi ve kurtulduğunu mu sanıyor? Yanılıyor. Eğer yaptığı değişiklik **"büyük ölçüde aynı işi, aynı yolla, aynı sonucu elde etmek için"** yapıyorsa, yine de suçludur. Hukuk, kelime oyunlarına (her zaman) kanmaz.
-
----
-
-## s⚙️ The Legal Machinery
-
-```mermaid
-graph TD
-    A[📜 Patent İhlali Tespiti] --> B{İhtarname Gönder?}
-    B -->|Hayır| C[Sessizce İzle ve Kanıt Topla]
-    B -->|Evet| D[Cease & Desist Mektubu]
-    C --> D
-    D --> E{Rakip Durdu mu?}
-    E -->|Evet| F[✅ Zafer (Masrafsız)]
-    E -->|Hayır| G[⚖️ DAVA AÇ (Litigation)]
-    G --> H{Mahkeme Kararı}
-    H -->|Kazan| I[💰 Tazminat + Yasaklama]
-    H -->|Kaybet| J[💀 Patent İptali + Masraflar]
-```
+### 2. İhtarnameye Cevap (Cease & Desist Response)
+*   **Dosya:** `templates/CEASE_DESIST_RESPONSE.md`
+*   **Amaç:** Patent trollerinden gelen tehdit mektuplarına "korkmuyorum" mesajı vermek.
+*   **Strateji:** Bu şablon, karşı taraftan "Spesifik İddia" (Specific Infringement Contentions) talep ederek süreci kilitler ve zaman kazandırır.
 
 ---
 
-> [!CAUTION]
-> **Yasal Uyarı:** PatentWarrior bir hukuk firması değildir. Buradaki bilgiler "Stratejik İstihbarat" niteliğindedir. Gerçek bir savaşta, yanınızda her zaman lisanslı bir "Patent Vekili" (The General) bulundurun.
+## 🏛️ Savunma Doktrinleri
+
+### A. İhlal Analizi: "All Elements Rule"
+Bir patenti ihlal etmek için, o patentin bir istemindeki **HER BİR UNSURU** (All Elements) kullanıyor olmanız gerekir.
+*   **İstem:** A + B + C
+*   **Ürününüz:** A + B
+*   **Sonuç:** İhlal YOK.
+
+### B. Hükümsüzlük (Invalidity): "Prior Art"
+Eğer patentteki buluş, başvuru tarihinden önce dünyanın herhangi bir yerinde **biliniyor** veya **kullanılıyor** ise, o patent geçersizdir.
+*   Sizin göreviniz, o "eski bilgiyi" (Prior Art) bulup `CLAIM_CHART` tablosuna işlemektir.
+
+### C. Üçüncü Taraf Gözlem (Third Party Observation)
+Rakibiniz bir patent başvurusu yaptığında, tescil edilmesini beklemeden Patent Ofisine "Bu buluş yeni değil, işte kanıtı!" diye, isimsiz olarak belge gönderebilirsiniz. Bu, sorunu daha doğmadan boğmaktır.

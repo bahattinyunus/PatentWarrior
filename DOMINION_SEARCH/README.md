@@ -1,57 +1,51 @@
-# 🔍 DOMINION_SEARCH: The High-Frequency Radar
+# 🔍 DOMINION_SEARCH: Radar & İstihbarat
 
-> **"Görmediğin düşman, seni öldüren düşmandır."**
+**"Google yetersizdir. Makinenin diliyle konuşmalısınız."**
 
-Patent dünyasında "bilmemek" mazeret değil, intihardır. Bu Dominion, **Deep Web**, **Akademik Arşivler** ve **Küresel Veritabanlarının** en karanlık köşelerinde "Görünmez Tehditleri" avlama merkezidir. Sıradan bir Google araması sizi "Her şey temiz" yanılgısına düşürür; **PatentWarrior Search Protocol** ise gerçeği, ne kadar derine gömülürse gömülsün, bulup çıkarır.
-
----
-
-## 🛰️ Deep Stacks Intelligence (Derin İstihbarat)
-
-### 1. Invalidation Warfare (Hükümsüz Kılma Savaşı) 🔥
-Rakibinizin "geçilemez" dediği bir patenti mi var? Yanılıyorlar. Tarihte "yıkılamaz" olan hiçbir patent yoktur; sadece yeterince aranmamış "Prior Art" (Önceki Teknik) vardır.
-*   **Mission:** Rakip patentin başvuru tarihinden **bir gün önce** yayınlanmış o tek dökümanı bulmak.
-*   **Target:** Japonca kullanım kılavuzları, 1990'lardan kalma doktora tezleri, WayBack Machine'deki silinmiş web siteleri.
-
-### 2. Freedom to Operate (FTO) - "The Minefield Map" 💣
-Ürününüzü piyasaya sürdükten sonra gelen bir "Cease and Desist" (İhtarnet) mektubu, projenin ölüm fermanıdır. FTO analizi, mayın tarlasında güvenli bir patika çizmektir.
-*   **Protokol:** Ürünün her bir bileşenini (vida, yazılım, ekran, pil) ayrı ayrı analiz et. Riskli bölgeleri kırmızı ile işaretle ve AR-GE ekibine "Buradan geçmeyin" emri ver.
+Patent araştırması, bir patenti hükümsüz kılacak veya sizin güvende olduğunuzu kanıtlayacak o "samanlıktaki iğneyi" bulma sanatıdır. Bu Dominion, istihbarat toplama ve hedef belirleme merkezidir.
 
 ---
 
-## 🕵️ Forensics Toolkit (Adli Bilişim Araçları)
+## 🛠️ YENİ: Taktiksel Sorgu Üretici (Tactical Query Generator)
+Karmaşık operatörleri ezberlemenize gerek kalmadan, ileri seviye arama dizileri üreten Python tabanlı bir araç geliştirdik.
 
-Sadece kelime araması yapmak amatör işidir. Biz **Kavramsal** ve **Sınıflandırma** tabanlı avcılık yaparız.
+### Kullanım (Usage)
+1.  Ana dizine gidin (Terminal/Komut İstemi).
+2.  Aşağıdaki komutu çalıştırın:
+    ```bash
+    python core/query_gen.py "anahtar_kelime" "diger_kelime" --assignee "RakipFirma"
+    ```
+3.  Araç size **Google Patents** ve **Espacenet** için hazır linkler üretecektir. Bu linkleri tarayıcınıza kopyalayın.
 
-| Araç/Yöntem | Açıklama | Güç Seviyesi |
-| :--- | :--- | :---: |
-| **CPC/IPC Classifications** | Patentlerin genetik kodları. Yanlış kelimelerle gizlenmiş patentleri bulur. | ⭐⭐⭐⭐⭐ |
-| **Citation Trees (Forward/Backward)** | Bir patentin "Atalarını" ve "Torunlarını" takip ederek tüm soy ağacını (aile ağacını) ortaya çıkarma. | ⭐⭐⭐⭐ |
-| **Assignee/Inventor Tracking** | Rakip şirketin "Yıldız Mühendisi" nereye gitti? Hangi konuda yayın yapıyor? İnsanları takip et, teknolojiye ulaşırsın. | ⭐⭐⭐ |
-
----
-
-## 🧬 Search Algorithms
-
-```mermaid
-graph LR
-    A[🎯 Hedef: Rakibi Durdur] --> B{Zayıf Nokta Ara}
-    B -->|Teknik| C[Prior Art Avı]
-    B -->|Hukuki| D[Dosya Geçmişi Analizi]
-    C --> E[Makaleler & Fuarlar]
-    C --> F[Eski Sovyet/Japon Patentleri]
-    D --> G[Ofis Eylemleri & İtiraflar]
-    G --> H[💥 PATENTSİZLEŞTİRME]
-    E --> H
-    F --> H
+### Örnek Senaryo
+Otonom araçlar için "Lidar" teknolojisini araştırıyorsunuz ve 2015 öncesi (eski teknik) bulgulara ihtiyacınız var:
+```bash
+python core/query_gen.py "lidar" "autonomous" --before "2015-01-01"
 ```
+*Çıktı, size 2015 öncesi tarihli Lidar patentlerini listeleyen doğrudan bir istihbarat linki verecektir.*
 
 ---
 
-## ⚡ Elite Search Tactics
+## 🧠 Manuel Arama Stratejileri (Black Ops Search)
 
-*   **Zaman Makinesi:** Bazen en iyi kanıt, rakibinizin kendi eski web sitesidir. Ürünlerini patent başvurusundan önce "Coming Soon" diye duyurdular mı? Eğer öyleyse, kendi patentlerini kendileri **imha etmiş** olabilirler. Buna "Self-Collision" denir.
-*   **Dil Bariyerini Aş:** Sadece İngilizce aramak, dünyanın %40'ını ıskalamaktır. Çin (CN), Japonya (JP) ve Kore (KR) veritabanları, batılı şirketlerin en büyük kabusudur. PatentWarrior, bu bariyerleri yıkar.
+### 1. Kelime Genişletme (Keyword Expansion)
+Mühendisler "Drone" der, Avukatlar "Unmanned aerial vehicle" der.
+*   **Yanlış:** Sadece "Drone" aramak.
+*   **Doğru:** "Unmanned aerial vehicle" OR "UAV" OR "Rotorcraft" OR "Aerial surveillance device"
 
-> [!IMPORTANT]
-> **Kural 1:** "Bulamadım" demek, "Yok" demek değildir. Sadece "Henüz bulamadım" demektir. Aramaya devam et.
+### 2. Sınıflandırma Kodları (The Fingerprint)
+Kelimeler yalan söyler, kodlar söylemez.
+*   İlgili tek bir patent bulun.
+*   Onun **CPC Koduna** bakın (örneğin: `G06F17/30`).
+*   Sadece bu kodu tarayarak, o teknolojiye ait tüm "gizli" patentleri dökün.
+
+### 3. "Assignee" Tuzağı
+*   Büyük şirketler patentleri bazen paravan şirketler üzerine, bazen de doğrudan kurucu mühendislerin (Inventor) şahsi isimlerine kaydeder.
+*   Rakibinizin "Yıldız Mühendislerini" LinkedIn'den bulun ve onların adıyla patent arayın.
+
+---
+
+## 🌍 Veritabanı Üsleri
+*   **Google Patents**: Hızlı tarama, çeviri ve görselleştirme için.
+*   **Espacenet**: Avrupa ve Asya (Çin/Japonya/Kore) verilerine erişim için kritik.
+*   **WIPO Patentscope**: Uluslararası (PCT) başvurularının erken tespiti için.

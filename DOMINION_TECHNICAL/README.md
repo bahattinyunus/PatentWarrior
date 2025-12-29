@@ -1,63 +1,38 @@
-# 🛠️ DOMINION_TECHNICAL: The Forge of Invincibility
+# ⚙️ DOMINION_TECHNICAL: Ar-Ge & Tasarım
 
-> **"Kelimeler, mühendisin harcı; istemler ise inşa ettiği kalenin duvarlarıdır."**
+**"Önce yapıldığını kanıtlayabiliyorsan, monopolleri toza çevirebilirsin."**
 
-Burası, bir fikrin **hukuki bir silaha** dönüştüğü atölyedir. İyi bir mühendis harika bir ürün yapar; **PatentWarrior** ise o ürünü kopyalanamaz bir anıta dönüştürür. Bu Dominion'da, "Claim Drafting" (İstem Yazımı) sanatını sıradan bir prosedürden, cerrahi bir hassasiyet gerektiren bir mühendislik disiplinine yükseltiyoruz.
-
----
-
-## 🏛️ The Architecture of Monopoly (Tekel Mimarisi)
-
-Patent yazmak, gelecekteki olası tüm kaçış yollarını bugünden kapatmaktır.
-
-### 🧱 1. Diamond-Hard Claims (Elmas Sertliğinde İstemler)
-İstemler (Claims), patentin kalbidir. Muğlak ifadeler ("yaklaşık", "büyük ölçüde") düşmanınıza kapı aralar.
-*   **Broad vs. Narrow:** İstemleriniz bir okyanus kadar geniş (tüm varyasyonları kapsayan) ama bir lazer kadar keskin (önceki teknikten ayrışan) olmalıdır. Bu **"Goldilocks Zone"**u bulmak ustalık gerektirir.
-*   **Picasso Prensibi:** Bir şeyi anlatmak için değil, **tanımlamak** için yazın. Gereksiz her kelime, rakibin "Ben bunu kullanmıyorum" demesi için bir şanstır.
-
-### 👻 2. Functional Claiming (İşlevsel Tanımlama)
-"*Bir vida ile tutturulmuş*" demek yerine "*...birbirine sabitlenmesi için yapılandırılmış sabitleme elemanı*" deyin.
-*   **Neden?** Rakibiniz vida yerine kaynak kullanırsa patentinizi deler. "Sabitleme elemanı" ise vidayı, kaynağı, yapıştırıcıyı ve gelecekte icat edilecek lazer kaynağını bile kapsar. **Buna "Future-Proofing" (Geleceğe Hazırlık) denir.**
-
-### 🎭 3. Alternative Embodiments (Alternatif Bedenlenmeler)
-Kendi buluşunuza saldıran ilk kişi siz olun. "Bunu başka nasıl yapardım?" diye sorun.
-*   *Örnek:* Eğer sensörünüz ışıkla çalışıyorsa, rakibiniz sesle çalışanını yapabilir mi? Patentinize "optik, akustik veya elektromanyetik sensör" yazarak o kapıyı da kilitleyin.
+Bu Dominion, patent savunmasının teknik cephesidir: **Önceki Teknik Analizi (Prior Art Analysis)** ve **Etrafından Dolaşma (Design Around)** stratejileri burada işlenir.
 
 ---
 
-## 📐 Blueprinting Excellence (Görsel Mükemmellik)
+## 🛡️ Önceki Teknik Analizi (The "Invalidity" Attack)
+Hedef, patentin başvuru tarihinden ("Priority Date") önce halka açıklanmış bir bilgi bularak, patentin "YENİ" olmadığını kanıtlamaktır.
 
-Bir resim bin kelimeye, iyi bir patent çizimi ise milyon dolara bedeldir.
+### 1. Zaman Çizelgesi (The Timeline)
+*   **Rüçhan Tarihi (Priority Date):** En kritik tarih. Bu tarihten 1 gün önce yayınlanmış bir bilgi bile patenti öldürür.
+*   **Hoşgörü Süresi (Grace Period):** ABD'de mucidin kendi ifşaları için 1 yıllık süresi vardır. Ancak Avrupa ve Çin'de **YOKTUR**. (Mutlak Yenilik).
 
-*   **Exploded Views (Patlatılmış Görünümler):** Karmaşık mekanizmaları atomlarına ayırarak gösterin. Hâkimler ve incelemeciler mühendis değildir; onlara bir LEGO şeması gibi netlik sunun.
-*   **Flowchart Logic:** Algoritmaları ve iş akışlarını, bir yazılımcının "Pseudo-Code"u gibi adım adım işleyin.
-
----
-
-## ⚙️ The Protocol: From Mind to Market
-
-```mermaid
-sequenceDiagram
-    participant M as 🧠 Mucit (Mind)
-    participant E as 👨‍💻 PatentWarrior (Engineer)
-    participant O as 🏢 Patent Ofisi (The Gatekeeper)
-
-    M->>E: "Harika bir fikrim var!"
-    E->>E: ☠️ Devil's Advocate (Bunu nasıl yıkarım?)
-    E->>E: 🛡️ Zırhlama (Alternatifleri Kapsa)
-    E->>O: Başvuru (The Submission)
-    O-->>E: "Reddedildi: Benzeri Var" (Office Action)
-    E->>O: ⚔️ Karşı Argüman & Revizyon (The Fight)
-    O-->>E: ✅ TESCİL (The Grant)
-    Note over E, O: Zafer, pes etmeyeninindir.
-```
+### 2. Ne "Prior Art" Sayılır?
+*   **Eski Patentler:** En kolayıdır.
+*   **Akademik Makaleler:** IEEE, ACM vb.
+*   **KİTLE FONLAMASI (Crowdfunding):** Kickstarter veya Indiegogo projeleri ALTIN değerindedir. Buluşun yıllar önce çalıştığını videolu kanıtlarlar.
+*   **YouTube:** Bir hobicinin garajında 2012'de çektiği video, 2015 tarihli bir patenti iptal ettirebilir.
+*   **GitHub:** Açık kaynak kod commit tarihleri (`git log`), tartışılmaz kanıtlardır.
 
 ---
 
-## ⚡ Master Class Tactics
+## 🔧 Etrafından Dolaşma (Design Around)
+Eğer patent geçerliyse ve iptal ettiremiyorsanız, ürününüzü patentin kapsamına girmeyecek şekilde yeniden tasarlamalısınız.
 
-1.  **The "Picture Claim" Fallacy:** Asla sadece ürününüzün fotoğrafını çeker gibi istem yazmayın. Ürünü değil, **kavramı** patentleyin.
-2.  **Lexicography (Kendi Sözlüğünü Yaz):** Patent içinde terimleri siz tanımlayın. "Akıllı Modül" dediğinizde bunun ne anlama geldiğini siz belirlerseniz, mahkemede başkası bunu eğip bükemez.
+### Strateji: "Element Eksiltme"
+Bir patent istemi (Claim) bir yemek tarifi gibidir. Eğer tarifte "Un, Su ve Tuz" varsa ve siz sadece "Un ve Su" kullanırsanız, o tarifi (patenti) ihlal etmezsiniz.
 
-> [!TIP]
-> **Pro Tip:** En iyi patent, rakibinizin ürününü eline aldığında "Lanet olsun, bunu kullanmadan nefes bile alamam!" dediği patenttir.
+1.  **Analiz:** Patentin 1. İstemini `templates/CLAIM_CHART_TEMPLATE.md` dosyasına yatırın.
+2.  **Hedef Seçimi:** İstemdeki en gereksiz veya değiştirilebilir unsuru seçin.
+3.  **Mühendislik:** O unsuru ürününüzden tamamen çıkarın veya başka bir yöntemle değiştirin.
+
+**Örnek:**
+*   **Patent İstemi:** "Veriyi (A) şifreleyen ve (B) Bluetooth ile gönderen cihaz."
+*   **Sizin Ürününüz:** "Veriyi (A) şifreleyen ve (B) **Wi-Fi** ile gönderen cihaz."
+*   **Sonuç:** Bluetooth elementini çıkardığınız için İHLAL YOKTUR.

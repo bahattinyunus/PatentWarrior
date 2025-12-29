@@ -1,66 +1,40 @@
-# ♟️ DOMINION_STRATEGY: Grandmaster Chessboard
+# ♟️ DOMINION_STRATEGY: Savaş Odası
 
-> **"Savaşın amacı savaşmak değil, kazanmaktır. En büyük zafer ise savaşmadan kazanılan zaferdir."** — Sun Tzu
+**"Taktiksiz strateji, zafere giden en yavaş yoldur. Stratejisiz taktik ise, yenilgiden önceki gürültüdür." — Sun Tzu**
 
-Bu Dominion, patentleri sadece yasal belgeler olarak değil, **Pazar Hakimiyeti** ve **Ekonomik Savaş** araçları olarak ele alır. Burada, Nvidia, Apple ve Qualcomm gibi devlerin kullandığı "Görünmez Savaş Doktrinlerini" inceleyecek ve kendi savunma hattınızı nasıl kuracağınızı öğreneceksiniz.
+Bu Dominion, patent savaşlarının psikolojik ve makro-stratejik boyutunu ele alır.
 
----
+## 🏴‍☠️ Karanlık Desenler (Dark Patterns) & Karşı Tedbirler
+Patent trolleri, uzlaşma koparmak için hukuksal korku ("FUD" - Fear, Uncertainty, Doubt) yayarlar. İşte onları nasıl durduracağınız:
 
-## 💀 Karanlık Sanatlar (Dark Arts of IP)
+### 1. "Saatli Bomba" Tuzağı
+*   **Taktik:** "48 saat içinde 10.000$ ödemezseniz 100.000$'lık dava açacağız."
+*   **Karşı Tedbir:** **ERTELE & BÖL (DELAY & DISSECT)**.
+    *   Asla panik yapmayın. O 48 saatlik süre tamamen uydurmadır.
+    *   `templates/CEASE_DESIST_RESPONSE.md` şablonu ile cevap verin ve spesifik kanıt isteyin. Bu, onların saatini durdurur ve sizin saatinizi başlatır.
 
-Rakiplerinizin size karşı kullanabileceği, sizin de farkında olmanız gereken ileri düzey taktikler.
+### 2. "Belirsiz Suçlama" (Vague Allegation)
+*   **Taktik:** "AI patentimizi ihlal ediyorsunuz." (Hangi patent? Hangi ürün? Hangi satır kod? Söylemezler.)
+*   **Karşı Tedbir:** **SPESİFİKLİK TALEP ET**.
+    *   Hukukta "İddia Sahibi İspatla Yükümlüdür".
+    *   Onlar size kod satırınızı gösterene kadar hiçbir şeyi kabul etmeyin, görüşme yapmayın.
 
-### 1. Patent Thicket (Patent Çalılığı) 🕸️
-Tek bir buluşu korumak yerine, o buluşun her varyasyonunu, üretim yöntemini ve kullanım alanını yüzlerce küçük patentle koruyarak, rakiplerin o alana girmesini imkansız hale getirme stratejisidir.
-*   **Amaç:** Rakipleri "Patent İhlali" korkusuyla felç etmek.
-*   **Karşı Taktik:** "Design Around" (Etrafından dolaşma) veya "Invalidation" (Hükümsüz kılma) saldırıları.
-
-### 2. Encirclement (Kuşatma / Go Stratejisi) ⚪⚫
-Rakibinizin bir çekirdek patenti olabilir (örneğin: yeni bir pil kimyası). Siz bu çekirdeği kullanamasanız bile, o pilin **soğutma yöntemini**, **şarj devresini** ve **kutu tasarımını** patentleyerek rakibinizi kuşatırsınız.
-*   **Sonuç:** Rakip, kendi buluşunu ticarileştirmek için SİZE lisans ödemek zorunda kalır. Buna **"Zorunlu Çapraz Lisanslama"** denir.
-
-### 3. Continuation Traps (Devamlılık Tuzakları) 💣
-Bir patent başvurusu yaparsınız ancak onu hemen tescil ettirmezsiniz. Pazarın gelişmesini beklersiniz. Rakibiniz bir ürün çıkardığında, başvurunuzun "İstemlerini" (Claims) rakibinizin ürününe tam uyacak şekilde revize edip tescil ettirirsiniz.
-*   **Etki:** Rakip pazara çıktıktan sonra onu gafil avlamak. (Not: Hukuk sistemleri bunu kısıtlamaya çalışsa da, "Divisional" başvurularla hala mümkündür.)
-
----
-
-## 🛡️ Defansif Doktrinler (The Shield)
-
-Saldırı altında hayatta kalmak için kurmanız gereken savunma mimarisi.
-
-### 🏯 Freedom to Operate (FTO) Analizi
-Sadece kendi patentinize güvenmeyin. Ürününüzü piyasaya sürmeden önce, başkalarının alanına girip girmediğinizi "Mayın Tarlası Haritası" çıkararak doğrulayın.
-*   **Taktik:** Riskli patentleri erkenden tespit edip, onlardan kaçınmak için ürünü revize etmek (Design Around).
-
-### 🏰 Defensive Publishing (Defansif Yayınlama)
-Eğer bir buluşu patentlemek sizin için çok pahalıysa veya patentlenebilirliğinden emin değilseniz, onu **Halka Açık Olarak Yayınlayın**.
-*   **Mantık:** Yayınlanmış bir bilgi "Prior Art" (Tekniğin Bilinen Durumu) olur. Artık **KİMSE** (rakibiniz dahil) o fikri patentleyemez. Rakibinizin yolunu tıkamak için ucuz ve etkili bir yöntemdir.
+### 3. "Portföy Blöfü"
+*   **Taktik:** "Elimizde 500 patent var, bizimle başa çıkamazsınız."
+*   **Karşı Tedbir:** **YIĞINI GÖRMEZDEN GEL, TEK HEDEFE ODAKLAN**.
+    *   Bir davada en fazla 1-3 patent öne sürebilirler. Diğer 497 patentin hiçbir önemi yoktur.
+    *   Bütün enerjinizi size gösterdikleri o TEK patenti hükümsüz kılmaya (Invalidation) harcayın.
 
 ---
 
-## 🚀 Ofansif Doktrinler (The Spear)
+## 🏛️ Açık Kaynak Kalkanı (The Open Source Shield)
 
-Pazarı ele geçirmek ve rakipleri saf dışı bırakmak için.
+### Defansif Yayın (Defensive Publication)
+Bir şeyi icat ettiniz ama patentlemek istemiyorsunuz (pahalı/gereksiz).
+*   **GÖREV:** Onu YAYINLAYIN.
+*   GitHub'a koyun, blog yazın, YouTube'a yükleyin.
+*   Halka açıldığı ("Public Domain") an, o bilgi artık **"Prior Art"** olur. Artık kimse (siz dahil) onu patentleyemez. Trollerin o fikri patentlemesini sonsuza kadar engellersiniz.
 
-### 🎯 Carpet Bombing (Halı Bombardımanı)
-Büyük bir teknolojik sıçrama öncesinde (örneğin 6G gelmeden), olası tüm standartları ve kullanım senaryolarını kapsayan geniş çaplı, spekülatif başvurular yapmak.
-
-### 🏹 Sniper Claims (Keskin Nişancı İstemleri)
-Rakibinizin ürününü alıp tersine mühendislik yaptıktan sonra, sadece ve sadece o ürünü hedef alan, kaçışı imkansız, dar kapsamlı ama "öldürücü" istemler yazmak.
-
----
-
-## 📊 Stratejik Yönetim Araçları
-
-| Strateği | Maliyet | Risk | Etki |
-| :--- | :---: | :---: | :---: |
-| **Thicket** | 💰💰💰💰 | 🔴 Yüksek | 🔥 Pazar Hakimiyeti |
-| **Encirclement** | 💰💰💰 | 🟠 Orta | 🤝 Çapraz Lisans |
-| **Defensive Pub.** | 💰 | 🟢 Düşük | 🚧 Rakibi Engelleme |
-| **Sniper** | 💰💰 | 🟠 Orta | 🎯 Tazminat / Yasaklama |
-
----
-
-> [!WARNING]
-> **Uyarı:** Bu taktikler "Etik" ve "Yasal" sınırlar içinde kalmalıdır. PatentWarrior, hukukun kötüye kullanılmasını değil, mevcut sistemin sunduğu araçların en üst düzeyde (Elite Level) kullanılmasını savunur.
+### Stratejik İttifaklar
+*   **LOT Network:** Üyeler patent troll'lerine karşı birbirlerini korur.
+*   **OIN (Open Invention Network):** Linux ve açık kaynak projelerini patent saldırılarından korur.
